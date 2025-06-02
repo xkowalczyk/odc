@@ -1,0 +1,1 @@
+/Users/maciek/Desktop/odocontroll-git/android/app/build/intermediates/cxx/Debug/2x1i6vx2/obj/arm64-v8a

@@ -1,0 +1,28 @@
+import { StyleSheet, View } from "react-native"
+import SelectUserOrTeam from "../components/SelectUserOrTeam";
+
+const UsersTeamPage = ({navigation}) => {
+    return(
+        <View style={styles.Container}>
+            <View style={styles.OptionsContainer}>
+                <SelectUserOrTeam navigation={navigation}/>
+            </View>
+        </View>
+    )
+}
+
+const styles = StyleSheet.create({
+    Container:{
+        width:'100%',
+        height:'100%'
+    },
+    OptionsContainer:{
+        width:'70%',
+        height:'50%',
+        alignSelf:'center',
+        marginTop:'auto',
+        marginBottom:'auto',
+    }
+})
+
+export default UsersTeamPage;
